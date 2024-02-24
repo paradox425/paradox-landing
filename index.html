@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Paradox" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <title>Paradox &amp; Powered by ERC-20, ERC-1155, ERC-721.</title>
+    <link rel="stylesheet" href="assets/css/style.css?v1.5.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Courier Prime"
+      rel="stylesheet"
+    />
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+
+  <body class="nk-body is-dark cl1" data-menu-collapse="lg">
+    <div class="nk-app-root has-mask">
+      <div class="nk-mask bg-pattern-dot-white-sm"></div>
+      <header class="nk-header has-shape">
+        <div
+          class="nk-shape bg-shape-blur-q mt-n20p ms-10p start-50 translate-middle-x"
+        ></div>
+        <div
+          class="nk-shape bg-shape-blur-r mt-n10p ms-n10p start-50 translate-middle-x"
+        ></div>
+        <div
+          class="nk-shape bg-shape-border-a mt-n15p ms-35p start-50 top-100 translate-middle-x"
+        ></div>
+        <div
+          class="nk-shape bg-shape-border-b mt-n9 ms-30p start-50 translate-middle-x"
+        ></div>
+        <div
+          class="nk-shape bg-shape-border-c mt-6 ms-n35p start-50 translate-middle-x"
+        ></div>
+        <div
+          class="nk-header-main nk-menu-main will-shrink is-transparent ignore-mask"
+        >
+          <div class="container">
+            <div class="nk-header-wrap">
+              <div class="nk-header-logo">
+                <a href="index.html" class="logo-link">
+                  <div class="logo-wrap">
+                    <img
+                      class="logo-img logo-light"
+                      src="images/logo.png"
+                      srcset="images/logo2x.png 2x"
+                      alt=""
+                    />
+                    <img
+                      class="logo-img logo-dark"
+                      src="images/logo-dark.png"
+                      srcset="images/logo-dark2x.png 2x"
+                      alt=""
+                    />
+                  </div>
+                </a>
+              </div>
+              <!-- .nk-header-logo -->
+              <div class="nk-header-toggle">
+                <button class="dark-mode-toggle dark-active">
+                  <em class="off icon ni ni-sun-fill"></em>
+                  <em class="on icon ni ni-moon-fill"></em>
+                </button>
+                <button class="btn btn-light btn-icon header-menu-toggle">
+                  <em class="icon ni ni-menu"></em>
+                </button>
+              </div>
+              <nav class="nk-header-menu nk-menu">
+                <ul class="nk-menu-list mx-auto">
+                  <li class="nk-menu-item">
+                    <a
+                      href="https://opensea.io/collection/paradox-31"
+                      class="nk-menu-link"
+                    >
+                      <span class="nk-menu-text">NFT's</span>
+                    </a>
+                  </li>
+                  <li class="nk-menu-item">
+                    <a href="#" class="nk-menu-link">
+                      <span class="nk-menu-text">Audit</span>
+                    </a>
+                  </li>
+
+                  <li class="nk-menu-item">
+                    <a
+                      href="https://github.com/paradox425"
+                      class="nk-menu-link"
+                    >
+                      <span class="nk-menu-text">Github</span>
+                    </a>
+                  </li>
+
+                  <li class="nk-menu-item">
+                    <a
+                      href="https://twitter.com/Paradoxerc425"
+                      class="nk-menu-link"
+                    >
+                      <span class="nk-menu-text">Twitter</span>
+                    </a>
+                  </li>
+
+                  <li class="nk-menu-item">
+                    <a href="https://t.me/ParadoxErc425" class="nk-menu-link">
+                      <span class="nk-menu-text">Telegram</span>
+                    </a>
+                  </li>
+                </ul>
+                <!-- .nk-menu-list -->
+
+                <ul class="nk-menu-buttons flex-lg-row-reverse">
+                  <li>
+                    <a href="#" class="btn btn-primary"
+                      ><em class="icon ni ni-arrow-long-right"></em
+                      ><span>Launch</span></a
+                    >
+                  </li>
+                </ul>
+                <!-- .nk-menu-buttons -->
+              </nav>
+              <!-- .nk-header-menu -->
+            </div>
+            <!-- .nk-header-wrap -->
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- .nk-header-main -->
+        <div class="nk-hero pt-4 pt-lg-6 pt-xl-12 pb-xl-4">
+          <div class="container custom-hero-background">
+            <!-- <img class="w-25" src="images/hero-left.png" alt="" />
+            <img class="w-25" src="images/hero-right.png" alt="" /> -->
+            <div
+              class="row g-gs align-items-center justify-content-center justify-content-xl-between flex-xl-row-reverse text-center text-xl-start"
+            >
+              <div class="col-xl-6 col-xxl-5 col-lg-7 col-md-10">
+                <div class="nk-hero-gfx me-xxl-n7">
+                  <div class="p-1 rounded-3">
+                    <img
+                      class="w-70 rounded-3"
+                      src="images/gfx/banner/logo.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- .col -->
+              <div class="col-xxl-7 col-xl-6 col-lg-11">
+                <div class="nk-hero-content">
+                  <h5 class="text-uppercase fw-normal mb-3">
+                    ERC-425 | Hybrid
+                  </h5>
+                  <h1 class="title cl1 mb-3 mb-lg-4">
+                    Paradox taking the
+                    <div>experimental standard</div>
+                    <div class="text-gradient-primary cl11">to next level.</div>
+                    <div class="text-gradient-primary cl2" style="height: 80px">
+                      <span
+                        class="type-init"
+                        data-strings='"NFT minting now as cheap as ERC-20 transfers."'
+                      ></span>
+                    </div>
+                  </h1>
+                  <p class="lead">
+                    $PDX is the most efficient, secure and scalable iteration of
+                    404. Transforming existing illiquid NFTS into liquid assets
+                    , Earn yield on your semi-fungible tokens from non-fungible
+                    tokens .
+                  </p>
+                  <ul class="btn-list btn-list-inline py-3 gy-3">
+                    <li>
+                      <a
+                        href="https://www.dextools.io/app/en/ether/pair-explorer/0xad9314aabedf0b07f115dc55af6814125d291574?t=1708678217146"
+                        class="btn btn-primary btn-lg"
+                        ><em class="icon ni ni-arrow-long-right"></em
+                        ><span>Buy Now</span></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/paradox425"
+                        class="btn btn-light btn-lg"
+                        ><em class="icon ni ni-github"></em
+                        ><span>Github Repository</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="sub-text mt-2">
+                    <strong>ERC-425 - </strong> Too Early.
+                  </p>
+                </div>
+              </div>
+              <!-- .col -->
+            </div>
+            <!-- .row -->
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- .nk-hero -->
+      </header>
+      <!-- .nk-header -->
+      <main class="nk-pages">
+        <section class="section section-lg section-bottom-0">
+          <div class="container">
+            <div class="section-content">
+              <div class="row justify-content-center text-center g-gs">
+                <div class="col-xxl-10">
+                  <ul
+                    class="d-flex flex-wrap justify-content-center has-gap gy-3"
+                  >
+                    <a href="https://www.coingecko.com/en/coins/paradox-2">
+                      <li class="px-3 px-xl-5">
+                        <img
+                          class="h-2rem visible-on-dark-mode"
+                          src="images/brands/cg.png"
+                          alt=""
+                        />
+                        <img
+                          class="h-2rem visible-on-light-mode"
+                          src=""
+                          alt=""
+                        />
+                      </li>
+                    </a>
+                    <li class="px-3 px-xl-5">
+                      <img
+                        class="h-2rem visible-on-dark-mode"
+                        src="images/brands/cmc.png"
+                        alt=""
+                      />
+                      <img class="h-2rem visible-on-light-mode" src="" alt="" />
+                    </li>
+                    <a
+                      href="https://app.uniswap.org/swap?inputCurrency=0x8b8aa7777e18408c07b0ed52ca3dd5bdab34eb7e&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                    >
+                      <li class="px-3 px-xl-5">
+                        <img
+                          class="h-2rem visible-on-dark-mode"
+                          src="images/brands/uniswap.png"
+                          alt=""
+                        />
+                        <img
+                          class="h-2rem visible-on-light-mode"
+                          src=""
+                          alt=""
+                        />
+                      </li>
+                    </a>
+                    <a
+                      href="https://www.dextools.io/app/en/ether/pair-explorer/0xad9314aabedf0b07f115dc55af6814125d291574?t=1708678217146"
+                    >
+                      <li class="px-3 px-xl-5">
+                        <img
+                          class="h-2rem visible-on-dark-mode"
+                          src="images/brands/dextools.png"
+                          alt=""
+                        />
+                        <img
+                          class="h-2rem visible-on-light-mode"
+                          src=""
+                          alt=""
+                        />
+                      </li>
+                    </a>
+                  </ul>
+                  <p class="fs-4 pt-5 mt-xl-3">
+                    ERC-425| Hybrid $PDX is the most efficient, secure and
+                    scalable iteration of 404.
+                  </p>
+                  <ul class="btn-list btn-list-inline pt-3 pt-xl-4">
+                    <li>
+                      <a
+                        href="https://etherscan.io/token/0x8b8aa7777e18408c07b0ed52ca3dd5bdab34eb7e#code"
+                        class="btn btn-primary btn-lg"
+                        ><span>Contract source code</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- .col -->
+              </div>
+              <!-- .row -->
+            </div>
+            <!-- .section-content -->
+          </div>
+          <!-- .container -->
+        </section>
+        <!-- .section -->
+        <section class="section section-lg section-bottom-0">
+          <div class="container">
+            <div class="section-head">
+              <div class="row justify-content-center text-center">
+                <div class="col-lg-9 col-xl-9 px-xxl-5">
+                  <h2 class="title h1">Error 425 - too early.</h2>
+                  <p class="lead">
+                    $PDX isn't just a contract; it embodies a revolutionary
+                    vision reshaping the NFT landscape. Building upon Pandora's
+                    groundwork, we aim to enhance and add value to this
+                    experimental standard.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- .section-head -->
+            <div class="section-content">
+              <div
+                class="row gx-5 gy-6 align-items-center justify-content-lg-between"
+              >
+                <div class="col-lg-6 col-xl-5">
+                  <div
+                    class="block-gfx ms-lg-n4 me-lg-0 me-xl-n6 my-lg-0 m-n3 m-sm-n4"
+                  >
+                    <!-- <img class="w-100" src="images/gfx/feature/a.gif" alt="" /> -->
+                    <a-scene embedded style="width: 100%; height: 500px">
+                      <a-assets>
+                        <a-asset-item
+                          id="yourModel"
+                          src="assets/nft.gltf"
+                        ></a-asset-item>
+                      </a-assets>
+                      <a-entity
+                        gltf-model="#yourModel"
+                        position="0 2 -4"
+                        rotation="15 30 0"
+                      ></a-entity>
+                    </a-scene>
+                  </div>
+                </div>
+                <!-- .col -->
+                <div class="col-lg-6 col-xl-6">
+                  <div class="block-text">
+                    <h2 class="title">
+                      ERC-425: &nbsp;NFT Aging &nbsp;&&nbsp; DynaMINT
+                    </h2>
+                    <p class="lead">
+                      DynaMINT: a dynamic NFTs minting mechanism which decides
+                      which NFT to mint based on the various parameters of the
+                      current state of the blockchain. The most loved feature of
+                      DynaMINT is RARITY.
+                    </p>
+                    <p class="lead">
+                      NFT Rarity Scale : Black > Green > Grey > Red > Blue
+                    </p>
+                    <p class="lead">
+                      NFTs Aging: Nft’s mature and slow grow traits over time
+                      and might turn into a rarest and unique NFT. For example:
+                      if you have a blue paradox box and hold it for x amount of
+                      time, the box will hatch and give you another NFT, if you
+                      hold this for x+y amount of time, then this NFT will grow
+                      traits one by one over the time and give you a rarest NFT.
+                    </p>
+                    <!-- <ul class="list gy-3">
+                      <li>
+                        <em
+                          class="icon fs-4 ni ni-check-circle-fill text-info"
+                        ></em
+                        ><span
+                          >Uses less storage than any other NFT standard.</span
+                        >
+                      </li>
+                      <li>
+                        <em
+                          class="icon fs-4 ni ni-check-circle-fill text-info"
+                        ></em
+                        ><span
+                          >Branching of transfers of NFTs and ERC20 tokens
+                          through different functions.</span
+                        >
+                      </li>
+                      <li>
+                        <em
+                          class="icon fs-4 ni ni-check-circle-fill text-info"
+                        ></em
+                        ><span
+                          >NFT minting and transfers are now as cheap as ERC20
+                          transfers.</span
+                        >
+                      </li>
+                      <li>
+                        <em
+                          class="icon fs-4 ni ni-check-circle-fill text-info"
+                        ></em
+                        ><span
+                          >NFT token IDs are unique, you wont get someone’s
+                          token ID when you mint a new NFT.</span
+                        >
+                      </li>
+                    </ul> -->
+                  </div>
+                </div>
+                <!-- .col -->
+              </div>
+              <!-- .row -->
+            </div>
+            <!-- .section-content -->
+          </div>
+          <!-- .container -->
+        </section>
+        <!-- .section -->
+        <section class="section section-lg section-bottom-0 has-shape">
+          <div
+            class="nk-shape bg-shape-border-d mt-n8 mt-lg-n9 start-50 translate-middle-x"
+          ></div>
+          <div class="container">
+            <div class="section-head">
+              <div class="row justify-content-center text-center">
+                <div class="col-lg-9 col-xl-7">
+                  <h2 class="title">
+                    Addressing liquidity crisis with Paradox
+                  </h2>
+                  <p class="lead">
+                    Paradox aims to revolutionize the landscape by transforming
+                    illiquid NFTs into liquid ERC-20 assets allowing users to
+                    farm over illiquid assets by providing liquidity.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- .section-head -->
+            <div class="section-content">
+              <div class="row g-gs">
+                <div class="col-lg-4">
+                  <div class="card bg-gradient-light border-0 h-100">
+                    <div class="card-body p-3 d-flex">
+                      <div class="feature feature-inline align-items-center">
+                        <div class="feature-text me-auto">
+                          <h4 class="title">Bridging Illiquid NFTs</h4>
+                          <p>
+                            Paradox ERC-425 acts as a bridge between illiquid
+                            NFTs and ERC-425 tokens, creating a pathway to
+                            liquidity for NFT holders.
+                          </p>
+                        </div>
+                        <div
+                          class="feature-decoration flex-shrink-0 ms-4 me-n3"
+                        >
+                          <img src="images/number/1-light.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- .col -->
+                <div class="col-lg-4">
+                  <div class="card bg-gradient-light border-0 h-100">
+                    <div class="card-body p-3 d-flex">
+                      <div class="feature feature-inline align-items-center">
+                        <div class="feature-text me-auto">
+                          <h4 class="title">Yield Opportunities</h4>
+                          <p>
+                            Users can leverage the liquidity bridge to provide
+                            LP and earn groundbreaking APRs.
+                          </p>
+                        </div>
+                        <div
+                          class="feature-decoration flex-shrink-0 ms-4 me-n3"
+                        >
+                          <img src="images/number/2-light.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- .col -->
+                <div class="col-lg-4">
+                  <div class="card bg-gradient-light border-0 h-100">
+                    <div class="card-body p-3 d-flex">
+                      <div class="feature feature-inline align-items-center">
+                        <div class="feature-text me-auto">
+                          <h4 class="title">Provider Benefits</h4>
+                          <p>
+                            Liquidity providers receive wrapped tokens, enabling
+                            indefinite real yield on their ERC-425 paradox
+                            semi-fungible tokens.
+                          </p>
+                        </div>
+                        <div
+                          class="feature-decoration flex-shrink-0 ms-4 me-n3"
+                        >
+                          <img src="images/number/3-light.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- .col -->
+              </div>
+              <!-- .row -->
+            </div>
+            <!-- .section-content -->
+          </div>
+          <!-- .container -->
+        </section>
+        <!-- .section -->
+        <section class="section section-lg section-bottom-0">
+          <div class="container">
+            <div class="section-head">
+              <div class="row justify-content-center text-center">
+                <div class="col-lg-10 col-xl-9 col-xxl-8">
+                  <h2 class="title h1">
+                    Advantages of ERC-425 over other standards
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <!-- .section-head -->
+            <div class="section-content">
+              <div
+                class="nk-shape bg-shape-border-c mt-6 ms-n35p start-50 translate-middle-x"
+                style="bottom: 15% !important"
+              ></div>
+              <div
+                class="nk-shape bg-shape-border-a mt-n15p ms-35p start-50 translate-middle-x"
+                style="top: 97% !important"
+              ></div>
+              <div class="row gy-gs gx-xxl-9">
+                <div class="col-md-6">
+                  <div class="feature feature-inline">
+                    <div class="feature-media">
+                      <div class="text-gradient-primary fs-2 d-inline-flex">
+                        <em class="icon ni ni-note-add"></em>
+                      </div>
+                    </div>
+                    <div class="feature-text">
+                      <h4 class="title">The cheapest gas ever</h4>
+                      <p>90%+ cheaper than other ERC404s</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- .col -->
+                <div class="col-md-6">
+                  <div class="feature feature-inline">
+                    <div class="feature-media">
+                      <div class="text-gradient-primary fs-2 d-inline-flex">
+                        <em class="icon ni ni-bulb"></em>
+                      </div>
+                    </div>
+                    <div class="feature-text">
+                      <h4 class="title">Bitmap storage architecture</h4>
+                      <p>Uses less storage than any other NFT standard.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- .col -->
+                <div class="col-md-6">
+                  <div class="feature feature-inline">
+                    <div class="feature-media">
+                      <div class="text-gradient-primary fs-2 d-inline-flex">
+                        <em class="icon ni ni-activity-round"></em>
+                      </div>
+                    </div>
+                    <div class="feature-text">
+                      <h4 class="title">
+                        Implemention of Kornecker Delta Function
+                      </h4>
+                      <p>
+                        Gas savings upto 90% comapred to other NFT Standards.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- .col -->
+                <div class="col-md-6">
+                  <div class="feature feature-inline">
+                    <div class="feature-media">
+                      <div class="text-gradient-primary fs-2 d-inline-flex">
+                        <em class="icon ni ni-network"></em>
+                      </div>
+                    </div>
+                    <div class="feature-text">
+                      <h4 class="title">Branching of ERC425 transfers</h4>
+                      <p>
+                        Fixed Vulnerabilities in transfer of ERC404 and others.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- .col -->
+                <div class="col-md-6">
+                  <div class="feature feature-inline">
+                    <div class="feature-media">
+                      <div class="text-gradient-primary fs-2 d-inline-flex">
+                        <em class="icon ni ni-tranx"></em>
+                      </div>
+                    </div>
+                    <div class="feature-text">
+                      <h4 class="title">NFT token IDs are unique</h4>
+                      <p>
+                        you wont get someone’s token ID when you mint a new NFT.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- .col -->
+                <div class="col-md-6">
+                  <div class="feature feature-inline">
+                    <div class="feature-media">
+                      <div class="text-gradient-primary fs-2 d-inline-flex">
+                        <em class="icon ni ni-puzzle"></em>
+                      </div>
+                    </div>
+                    <div class="feature-text">
+                      <h4 class="title">Native support for ERC1155</h4>
+                      <p>Works just like ERC1155 on all NFT marketplaces.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- .col -->
+                <div class="col-md-6">
+                  <div class="feature feature-inline">
+                    <div class="feature-media">
+                      <div class="text-gradient-primary fs-2 d-inline-flex">
+                        <em class="icon ni ni-presentation"></em>
+                      </div>
+                    </div>
+                    <div class="feature-text">
+                      <h4 class="title">
+                        Offers the best of both ERC20 & ERC1155
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <!-- .col -->
+                <div class="col-md-6">
+                  <div class="feature feature-inline">
+                    <div class="feature-media">
+                      <div class="text-gradient-primary fs-2 d-inline-flex">
+                        <em class="icon ni ni-grid-add-fill-c"></em>
+                      </div>
+                    </div>
+                    <div class="feature-text">
+                      <h4 class="title">Native support for ERC20</h4>
+                      <p>Works just like ERC20 with all DEXes.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- .col -->
+              </div>
+              <!-- .row -->
+            </div>
+            <!-- .section-content -->
+          </div>
+          <!-- .container -->
+        </section>
+        <!-- .section -->
+        <section class="section section-lg section-bottom-0 has-shape">
+          <div
+            class="nk-shape bg-shape-border-f ms-40p mt-8 start-50 translate-middle-x"
+          ></div>
+
+          <!-- .container -->
+        </section>
+
+        <!-- .section -->
+      </main>
+      <footer class="nk-footer pt-4 pt-lg-7">
+        <div class="section section-top-0">
+          <div class="container">
+            <div class="row g-5">
+              <div class="col-lg-3 col-md-9 me-auto">
+                <div class="block-text">
+                  <a href="index.html" class="logo-link mb-4">
+                    <div class="logo-wrap">
+                      <img
+                        class="logo-img logo-light"
+                        src="images/logo.png"
+                        srcset="images/logo2x.png 2x"
+                        alt=""
+                      />
+                      <img
+                        class="logo-img logo-dark"
+                        src="images/logo-dark.png"
+                        srcset="images/logo-dark2x.png 2x"
+                        alt=""
+                      />
+                    </div>
+                  </a>
+                  <p class="fs-4 text-white">ERC425: Too Early</p>
+                  <ul class="btn-list btn-list-inline g-0">
+                    <li>
+                      <a
+                        href="https://www.dextools.io/app/en/ether/pair-explorer/0xad9314aabedf0b07f115dc55af6814125d291574?t=1708678217146"
+                        class="btn btn-lg btn-primary"
+                        >Buy Now</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-4 col-6">
+                <div class="wgs">
+                  <!-- <h6 class="wgs-title overline-title text-heading mb-3">
+                    Use Case
+                  </h6> -->
+                  <ul class="list gy-2 list-link-base">
+                    <li>
+                      <a
+                        class="link-base"
+                        href="https://twitter.com/Paradoxerc425"
+                        >Twitter</a
+                      >
+                    </li>
+                    <li>
+                      <a class="link-base" href="https://t.me/ParadoxErc425"
+                        >Telegram</a
+                      >
+                    </li>
+                    <li>
+                      <a class="link-base" href="https://github.com/paradox425"
+                        >GitHub</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-4 col-6">
+                <div class="wgs">
+                  <!-- <h6 class="wgs-title overline-title text-heading mb-3">
+                    About
+                  </h6> -->
+                  <ul class="list gy-2 list-link-base">
+                    <li>
+                      <a
+                        class="link-base"
+                        href="https://opensea.io/collection/paradox-31"
+                        >OpenSea</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="link-base"
+                        href="https://www.dextools.io/app/en/ether/pair-explorer/0xad9314aabedf0b07f115dc55af6814125d291574?t=1708678217146"
+                        >DexTools</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="link-base"
+                        href="https://app.uniswap.org/swap?inputCurrency=0x8b8aa7777e18408c07b0ed52ca3dd5bdab34eb7e&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                        >UniSwap</a
+                      >
+                    </li>
+                    <!-- <li>
+                      <a class="link-base" href="#">Terms &amp; Conditions</a>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+              <!-- <div class="col-lg-3 col-sm-4">
+                <div class="wgs">
+                  <h6 class="wgs-title overline-title text-heading mb-3">
+                    Contacts
+                  </h6>
+                  <p>
+                    If you need help using our service, or have a question about
+                    it, please feel free to contact us.
+                  </p>
+                  <a href="#" class="link link-primary">support@copygen.ai</a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- .section -->
+        <div class="container">
+          <hr class="border-opacity-25 border-white m-0" />
+          <div class="py-5">
+            <div class="row">
+              <div class="col-md">
+                <p class="mb-2 mb-md-0">&copy; 2024 Paradox.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container -->
+      </footer>
+    </div>
+    <script src="assets/js/bundle.js?v1.5.0"></script>
+    <script src="assets/js/scripts.js?v1.5.0"></script>
+  </body>
+</html>
